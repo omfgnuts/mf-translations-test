@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: module-federation-docs\n"
 "POT-Creation-Date: 2023-02-17 02:00+0300\n"
-"PO-Revision-Date: 2023-02-16 23:21\n"
+"PO-Revision-Date: 2023-02-22 21:18\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -70,75 +70,75 @@ msgstr ""
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/index.adoc:22
 msgid "limitations of previous publishing tools (DiGIR, TAPIR, BioCASe) to easily publish and transfer large datasets;"
-msgstr ""
+msgstr "limitaciones de herramientas editoriales anteriores (DiGIR, TAPIR, BioCASe) para publicar y transferir fácilmente grandes conjuntos de datos;"
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/index.adoc:23
 msgid "the need to reduce the load on both the publisher's server, and GBIF's server during indexing. The reason being that indexing from DiGIR, TAPIR, or BioCASe caused heavy loads due to repeated HTTP request-response interactions."
-msgstr ""
+msgstr "la necesidad de reducir la carga tanto en el servidor del editor, como en el servidor de GBIF, durante la indexación. La razón es que la indexación de DiGIR, TAPIR o BioCASe causó cargas pesadas debido a la repetición de la solicitud de respuesta HTTP."
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/index.adoc:24
 msgid "the need to speed up the process of indexing biodiversity occurrence datasets;"
-msgstr ""
+msgstr "la necesidad de acelerar el proceso de indexación de los conjuntos de datos de ocurrencia de biodiversidad;"
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/index.adoc:25
 msgid "the need to offer additional benefits and services to the data publishers to encourage data publication;"
-msgstr ""
+msgstr "la necesidad de ofrecer beneficios y servicios adicionales a los editores de datos para fomentar la publicación de datos;"
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/index.adoc:26
 msgid "the lack of appropriate tools to publish certain types of biodiversity data, such as names checklists and data set metadata."
-msgstr ""
+msgstr "la falta de herramientas adecuadas para publicar ciertos tipos de datos sobre biodiversidad, como listas de verificación de nombres y metadatos de conjunto de datos."
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/index.adoc:28
 msgid "To understand how the IPT works, try watching this concise 25 minute live demo showing how a dataset gets properly published and registered through GBIF.org."
-msgstr ""
+msgstr "Para entender cómo funciona la IPT, pruebe a ver esta concisa demostración en vivo de 25 minutos mostrando cómo un conjunto de datos se publica correctamente y se registra a través de GBIF.org."
 
 #. type: Block title
 #: docs/en/modules/ROOT/pages/index.adoc:30
 #, no-wrap
 msgid "How to publish biodiversity data through GBIF.org using the IPT"
-msgstr ""
+msgstr "Cómo publicar datos de biodiversidad a través de GBIF.org usando la IPT"
 
 #. type: Title ==
 #: docs/en/modules/ROOT/pages/index.adoc:33
 #, no-wrap
 msgid "Users"
-msgstr ""
+msgstr "Usuarios"
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/index.adoc:36
 msgid "If you're only interested in trying out the IPT please request an account on the https://ipt.gbif.org/[Demo IPT] by sending an email to helpdesk@gbif.org."
-msgstr ""
+msgstr "Si sólo está interesado en probar la IPT, por favor solicite una cuenta en https://ipt.gbif.org/[Demo IPT] enviando un correo electrónico a helpdesk@gbif.org."
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/index.adoc:38
 msgid "The simplest way to begin using the IPT is to request a free account on a xref:data-hosting-centres.adoc[trusted data hosting centre] allowing you to manage your own datasets and publish them through GBIF.org without the hassle of setting up and maintaining the IPT on your own server."
-msgstr ""
+msgstr "La forma más sencilla de comenzar a usar IPT es solicitar una cuenta gratuita en los centros de alojamiento de datos xref:datos. doc[centro de alojamiento de datos de confianza] que te permite administrar tus propios conjuntos de datos y publicarlos a través de GBIF. rg sin el problema de configurar y mantener la IPT en su propio servidor."
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/index.adoc:40
 msgid "Otherwise if want to setup your own instance of the IPT the xref:getting-started.adoc[Getting Started Guide] is your entry point."
-msgstr ""
+msgstr "De lo contrario, si desea configurar su propia instancia de IPT el punto de entrada xref:getting-started.adoc[Obteniendo Guía de Inicio]."
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/index.adoc:42
 msgid "Be sure to sign up to the https://lists.gbif.org/mailman/listinfo/ipt/[IPT Mailing List], which serves as a support group for IPT users. It is essential that the IPT is kept up to date to be as secure and robust as possible, so if you are responsible for administering an IPT, then you should be signed up to be notified of new releases so that you can update immediately."
-msgstr ""
+msgstr "Asegúrese de registrarse en https://lists.gbif.org/mailman/listinfo/ipt/[IPT Mailing List], que sirve como un grupo de soporte para usuarios IPT. Es esencial que el IPT se mantenga al día para ser lo más seguro y sólido posible así que si usted es responsable de administrar un IPT, entonces debe estar registrado para ser notificado de nuevas versiones para que pueda actualizar inmediatamente."
 
 #. type: Title ==
 #: docs/en/modules/ROOT/pages/index.adoc:43
 #, no-wrap
 msgid "Developers"
-msgstr ""
+msgstr "Desarrolladores"
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/index.adoc:46
 msgid "The core development of the IPT is directed by GBIF, but the coding is a community effort and everyone is welcome to join. Start by browsing the https://github.com/gbif/ipt/issues[Open Issues] to find something that you'd like to start working on. Kindly note that contributions are welcome in the form of a https://help.github.com/articles/creating-a-pull-request/[pull request] using a branch or fork of the repository. Full instructions aimed at developers can be found xref:developer-guide.adoc[here]."
-msgstr ""
+msgstr "El desarrollo básico de la IPT está dirigido por GBIF, pero la codificación es un esfuerzo comunitario y todos son bienvenidos a unirse. Empieza navegando por https://github.com/gbif/ipt/issues[Open Issues] para encontrar algo en lo que te gustaría empezar a trabajar. Tenga en cuenta que las contribuciones son bienvenidas en forma de https://help.github.com/articles/creating-a-pull-request/[pull request] usando una rama o bifurcación del repositorio. Las instrucciones completas dirigidas a los desarrolladores pueden encontrarse en xref:developer-guide.adoc[here]."
 
 #. type: Title ==
 #: docs/en/modules/ROOT/pages/index.adoc:47
