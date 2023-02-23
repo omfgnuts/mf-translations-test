@@ -1,25 +1,27 @@
-= 詞彙表
-* *Checklist Resource* - a resource having information about one of many types of taxon-related lists.
-* *Core Type* - a category of predefined sets of data properties (Taxon, Occurrence, and Event) used as the basis of a resource. Additional extensions might be linked to these Core Types when mapping data in the IPT.
-* *CSV file* - a text file that contains data in the Comma-separated Value format.
-* *Data directory* - the full (rather than relative) path (location) in the file structure where the data associated with the IPT instance are located.
-* *Darwin Core* - a standard consisting of terms and classes of terms used to share biodiversity data.
-* *Darwin Core Archive* - a single zipped archive for a data set consisting of one or more text files of data, an XML file (meta.xml) describing the contents of the text files and how they relate to each other, and an XML file (eml.xml) containing the metadata in EML about the data set.
-* *EML* - the Ecological Markup Language is an XML-based profile used to encode metadata about a data set.
-* *Extension* - in this user manual, an extension is a set of terms corresponding to a specific category of data. An extension should be thought of as an extension of the capabilities of the IPT rather than as an extension of any particular standard.
-* *GBIF Registry* - a registry that manages the nodes, organizations, resources, and IPT installations registered with GBIF, making them discoverable and interoperable.
-* *Metadata* - in this user manual, metadata refers to the information about a data set as opposed the primary data in the data set.
-* *Metadata Resource* - a resource having information about a data set, but without having the actual primary data. A metadata resource might give information about a collection that has not yet been digitized, for example.
-* *Occurrence Resource* - a resource having information about Occurrences as defined in the Darwin Core.
-* *Private* - a state of a resource in which only the creator, invited managers, and IPT administrators can view it.
-* *Public* - a state of a resource in which anyone can view it.
-* *Published Release* - a version of the resource that has been produced by the IPT.
-* *Registered* - a state of a public resource or of an IPT instance in which anyone can discover it through the GBIF Registry.
-* *Resource* - in this user manual, resource refers to a data set and the metadata about it.
-* *Resource Managers* - IPT users having a role that allows them to create, change, and remove resources.
-* *RowType* - the category of information represented in an extension. The RowType is generally the URI of the Class that best fits the information contained in the extension.
-* *RSS* - the acronym for Really Simple Syndication, a type of subscription format for tracking changes to a web site.
-* *Sampling Event Resource* - A resource where the basis of the resource is sampling events as defined in the Darwin Core.
-* *Shortname* - a short unique name used for resource identification within the IPT and services that access the IPT.
-* *Source Data* - in this user manual, the source data are the data that are mapped to core types and extensions within a resource and may consist of text files or a database.
-* *Visibility* - a term describing how a resource may be viewed (private, public, or registered).
+= Glossary
+
+* *清单资源* - 拥有多种类分类清单信息的资源。
+* *核心类型 * - 用作资源基础的预定义的数据组属性类别(分类、发生和事件)。 在映射IPT中的数据时，可能会链接到这些核心类型。
+
+* *CSV 文件* - 以逗号分隔的值格式包含数据的文本文件。
+* *数据目录* - 与IPT实例相关的数据所在的文件结构中的完整(而不是相对)路径(位置)。
+* *Darwin Core* - 一个包含用于分享生物多样性数据的术语和类别的标准。
+* *Darwin Core Archive* - 一个包含一个或多个数据文本文件的 XML 文件(元)的单个压缩包。 ml描述文本文件的内容和它们之间的关系，以及一个XML文件(eml)。 ml包含EML中有关数据集的元数据。
+* *EML* - 生态标记语言是一个基于 XML 的配置文件，用于编码数据集的元数据。
+* * 扩展* - 在本用户手册中，扩展是一组与特定类别数据相对应的术语。 延期应被视为IPT能力的延伸，而不是任何特定标准的延伸。
+* *GBIF注册* - 用于管理节点、组织、资源和IPT安装的注册表，从而使它们能够被发现并可以互用。
+* *元数据* - 在本用户手册中，元数据指的是数据集中相对于数据集原始数据的信息。
+* *元数据资源* - 拥有数据集信息但没有实际原始数据的资源。 元数据资源可能会提供关于尚未数字化的收藏的信息。例如，
+* *出现资源* - 一个拥有达尔文核心定义的事件信息的资源。
+* *私有* - 只有创建者、邀请管理员和 IPT 管理员才能查看资源的状态。
+* *公开* - 任何人都可以查看资源的状态。
+* *已发布的版本* - IPT生成的资源版本
+* *注册*-公共资源或IPT实例的状态，在此状态下，任何人都可以通过 GBIF注册表发现它。
+* *Resource* - 在本用户手册中，资源是指一个数据集和有关它的元数据。
+* *资源管理员* - IPT用户能够创建、更改和移除资源。
+* * RowType* - 扩展中所代表的信息类别。 RowType 通常是类的 URI，最适合扩展中包含的信息。
+* *RSS * - 真正简单的辛迪加的缩写，用于跟踪网站更改的订阅格式。
+* *取样事件资源* - 资源基础是达尔文核心定义的采样事件的资源。
+* *短名* - 用于IPT中的资源识别和访问 IPT 服务的简短唯一名称
+* *源数据* - 在本用户手册中， 源数据是指在资源范围内映射到核心类型和扩展的数据，可能由文本文件或数据库组成。
+* *可视性* - 一个描述资源如何被查看的术语(私有、公共或注册)。
