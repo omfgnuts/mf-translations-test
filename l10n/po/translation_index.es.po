@@ -2,20 +2,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: module-federation-docs\n"
 "POT-Creation-Date: 2023-02-22 23:01+0300\n"
-"PO-Revision-Date: 2023-02-22 21:18\n"
+"PO-Revision-Date: 2023-02-23 17:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
-"Language: es\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
 "X-Crowdin-Project: module-federation-docs\n"
 "X-Crowdin-Project-ID: 567699\n"
 "X-Crowdin-Language: es-ES\n"
-"X-Crowdin-File: translation_index.po\n"
-"X-Crowdin-File-ID: 47\n"
+"X-Crowdin-File: /main/l10n/po/translation_index.pot\n"
+"X-Crowdin-File-ID: 65\n"
 
 #. type: Title =
 #: docs/en/modules/ROOT/pages/introduction.adoc:1
@@ -216,7 +215,7 @@ msgstr "https://crowdin.com/[Crowdin] apoya amablemente este proyecto de código
 #: docs/en/modules/ROOT/pages/glossary.adoc:1
 #, no-wrap
 msgid "Glossary"
-msgstr "Glossary"
+msgstr ""
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/glossary.adoc:4
