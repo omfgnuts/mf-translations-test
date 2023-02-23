@@ -1,4 +1,0 @@
-// A link to index.adoc is included automatically.
-* xref:introduction.adoc[]
-* xref:getting-started.adoc[]
-* xref:glossary.adoc[]
