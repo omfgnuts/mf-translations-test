@@ -1,0 +1,384 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: module-federation-docs\n"
+"POT-Creation-Date: 2023-02-22 23:01+0300\n"
+"PO-Revision-Date: 2023-02-22 22:08\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: module-federation-docs\n"
+"X-Crowdin-Project-ID: 567699\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: translation_index.zh.po\n"
+"X-Crowdin-File-ID: 49\n"
+
+#. type: Title =
+#: docs/en/modules/ROOT/pages/introduction.adoc:1
+#, no-wrap
+msgid "How to Use this Manual"
+msgstr "如何使用本手册"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:4
+msgid "This manual has three main components: an introduction with background information, a number of step-by-step tutorials and a complete reference guide including a \"getting started\" section and sections describing in detail the different elements of the tool."
+msgstr "该手册有三个主要组成部分：带有背景资料的导言。 一系列逐步教程和完整的参考指南，包括“开始”部分和详细描述工具不同元素的章节。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:6
+msgid "test"
+msgstr "测试模式"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:8
+msgid "All users are encouraged to review this introductory part and then refer to the different specific sections depending on their role(s) regarding the IPT installation. The IPT (and this manual) differentiates three type of users:"
+msgstr "鼓励所有用户审查这个导言部分，然后参照不同的具体章节，这取决于他们在IPT安装方面的作用。 IPT (和本手册) 区分三种用户："
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:10
+#, no-wrap
+msgid "*Administrators*: in charge of installing and configuring the IPT. They can make changes to all aspects of an instance of the IPT. Administrators should refer to the xref:getting-started.adoc[Getting Started] and xref:administration.adoc[Administration Menu] sections of the reference guide.\n"
+msgstr "*管理员*：负责安装和配置IPT。他们可以更改IPT实例的所有方面。 管理员应该参考参考参考指南的 xref:getting-started.adoc[Getting Started] 和 xref:adoc[Administration Menu] 部分。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:11
+#, no-wrap
+msgid "*Resource Managers*: they are able to create, edit, remove and manage resources (data sets and metadata). Depending on the settings they may or may not have registration rights to publish resources through the GBIF Network. Resource managers should refer to the different xref:how-to-publish.adoc[tutorials] depending on the type of data that they need to deal with (xref:resource-metadata.adoc[metadata], xref:occurrence-data.adoc[occurrences], special data types through extensions, etc.). The xref:manage-resources.adoc[Manage Resources Menu] section will also be very helpful for resource managers.\n"
+msgstr "*资源管理员*：他们能够创建、编辑、移除和管理资源（数据集和元数据）。 根据设置，他们可能有或没有通过GBIF网络发布资源的注册权。 资源管理人员应参考不同的xref:how to publish。 doc[tutorials] 取决于他们需要处理的 (xref:resour-metadata.adoc[metadata], xref:ocuse-data. doc[occurrences]通过扩展等特殊数据类型。xref:manage-resources.adoc[管理资源菜单] 部分也将对资源管理员非常有用\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:11
+#, no-wrap
+msgid "*Basic users*: They can only browse the resources published in an IPT installation. For basic users the IPT works as a simple web application so no further explanation is included in this manual.\n"
+msgstr "*基本用户*：他们只能浏览在IPT安装中发布的资源。 对于基本用户来说，IPT是一个简单的网络应用程序，因此本手册中没有进一步的解释。\n"
+
+#. type: Title =
+#: docs/en/modules/ROOT/pages/index.adoc:1
+#, no-wrap
+msgid "GBIF Integrated Publishing Toolkit (IPT) User Manual"
+msgstr "GBIF 集成发布工具包(IPT) 用户手册"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:4
+msgid "_For information on the latest release, including downloads, see the xref:releases.adoc[Releases] page._"
+msgstr "_关于最新版本的信息，包括下载，请参阅xref：releases.adoc[Releases] page._"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:6
+msgid "The GBIF Integrated Publishing Toolkit (IPT) is a freely available open source web application that makes it easy to share four types of biodiversity-related information:"
+msgstr "GBIF 综合出版工具包(IPT) 是一个免费提供的开放源代码网页应用程序，易于分享四种类型的与生物多样性有关的信息："
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:8
+msgid "primary taxon occurrence data"
+msgstr "主要分类群事件数据"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:9
+msgid "taxon checklists"
+msgstr "分类单元清单"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:10
+msgid "sampling event data"
+msgstr "采样事件数据"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:11
+msgid "general metadata about data sources."
+msgstr "数据源的一般元数据。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:13
+msgid "An IPT instance as well as the data and metadata registered through the IPT are connected to the GBIF Registry, are indexed for consultation via the GBIF network and portal, and are made accessible for public use.  The IPT can also be configured with a DataCite account in order to assign DOIs to datasets transforming it into a data repository."
+msgstr "IPT实例以及通过IPT注册的数据和元数据已连接到GBIF注册表， 通过基于性别的综合框架网络和门户网站为咨询编制索引，并可供公众使用。 IPT 也可以使用 DataCite 帐户配置，以便将 DOI指派到数据集，转换成数据存储库。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:18
+msgid "Founded and funded by governments in 2001, The Global Biodiversity Information Facility (GBIF) is the world's largest multi-lateral initiative for enabling free access to biodiversity data via the Internet. https://www.gbif.org/participation/participant-list[GBIF's diverse Participants] include primarily countries and international organizations. GBIF also has formal partnerships with relevant international treaty bodies. GBIF's mission is to promote and enable free and open access to biodiversity data worldwide via the Internet to underpin science, conservation and sustainable development. More information about GBIF can be found at https://www.gbif.org/[GBIF.org]."
+msgstr "2001年建立并由各国政府提供资金 全球生物多样性信息基金是世界上最大的多边倡议，旨在使人们能够通过因特网免费获得生物多样性数据。 https://www.gbif.org/participation/participant-list[GBIF的各种参与者]主要包括国家和国际组织。 基于性别的综合框架还与有关国际条约机构建立了正式的伙伴关系。 全球生物多样性框架的任务是通过因特网促进和使人们能够自由和公开地获得世界各地生物多样性数据，以支持科学、养护和可持续发展。 更多关于GBIF的信息可在 https://www.gbif.org/[GBIF.org] 上找到。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:20
+msgid "Several factors have provided motivation for GBIF to lead the development of the IPT:"
+msgstr "有几个因素促使基于性别的综合框架带头制定了综合方案："
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:22
+msgid "limitations of previous publishing tools (DiGIR, TAPIR, BioCASe) to easily publish and transfer large datasets;"
+msgstr "以前的出版工具(DiGIR, TAPIR, BiCASee)很容易发布和传输大型数据集的限制；"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:23
+msgid "the need to reduce the load on both the publisher's server, and GBIF's server during indexing. The reason being that indexing from DiGIR, TAPIR, or BioCASe caused heavy loads due to repeated HTTP request-response interactions."
+msgstr "在索引过程中需要减少发布者服务器和GBIF服务器的负荷。 原因是DiGIR、TAPIR或BioCASe的索引因为重复的 HTTP 请求-响应交互而造成了沉重的负荷。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:24
+msgid "the need to speed up the process of indexing biodiversity occurrence datasets;"
+msgstr "• 需要加快生物多样性发生数据集索引的进程；"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:25
+msgid "the need to offer additional benefits and services to the data publishers to encourage data publication;"
+msgstr "• 需要向数据出版商提供更多的好处和服务，以鼓励数据公布；"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:26
+msgid "the lack of appropriate tools to publish certain types of biodiversity data, such as names checklists and data set metadata."
+msgstr "缺乏适当的工具来公布某些类型的生物多样性数据，例如地名清单和数据集元数据。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:28
+msgid "To understand how the IPT works, try watching this concise 25 minute live demo showing how a dataset gets properly published and registered through GBIF.org."
+msgstr "为了了解IPT如何工作，请尝试观看这个简洁的25分钟直播演示，显示数据集如何通过GBIF.org正确地发布和注册。"
+
+#. type: Block title
+#: docs/en/modules/ROOT/pages/index.adoc:30
+#, no-wrap
+msgid "How to publish biodiversity data through GBIF.org using the IPT"
+msgstr "如何使用 IPT 通过 GBIF.org 发布生物多样性数据"
+
+#. type: Title ==
+#: docs/en/modules/ROOT/pages/index.adoc:33
+#, no-wrap
+msgid "Users"
+msgstr "用户"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:36
+msgid "If you're only interested in trying out the IPT please request an account on the https://ipt.gbif.org/[Demo IPT] by sending an email to helpdesk@gbif.org."
+msgstr "如果您只想尝试IPT，请在 https://ipt.gbif.org/[Demo IPT]上通过发送电子邮件到helpdesk@gbif.org请求一个账户。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:38
+msgid "The simplest way to begin using the IPT is to request a free account on a xref:data-hosting-centres.adoc[trusted data hosting centre] allowing you to manage your own datasets and publish them through GBIF.org without the hassle of setting up and maintaining the IPT on your own server."
+msgstr "开始使用IPT的最简单方式是在xref:data-hosting中心申请免费帐户。 文档[可信的数据托管中心]允许您管理自己的数据集并通过GBIF发布它们。 rg 不需要在您自己的服务器上设置和维护IPT。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:40
+msgid "Otherwise if want to setup your own instance of the IPT the xref:getting-started.adoc[Getting Started Guide] is your entry point."
+msgstr "否则，如果想要设置您自己的 IPT 实例的话，xref:getting-started.adoc[Getting Started Guide]是您的切入点。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:42
+msgid "Be sure to sign up to the https://lists.gbif.org/mailman/listinfo/ipt/[IPT Mailing List], which serves as a support group for IPT users. It is essential that the IPT is kept up to date to be as secure and robust as possible, so if you are responsible for administering an IPT, then you should be signed up to be notified of new releases so that you can update immediately."
+msgstr "请务必注册 https://lists.gbif.org/mailman/listinfo/ipt/[IPT Mailing List]，该邮件列表是IPT 用户的支持组。 防止酷刑小组必须不断更新，以便尽可能安全和有力。 如果您负责管理IPT, 然后您应该注册以获得新版本的通知，以便您可以立即更新。"
+
+#. type: Title ==
+#: docs/en/modules/ROOT/pages/index.adoc:43
+#, no-wrap
+msgid "Developers"
+msgstr "开发人员"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:46
+msgid "The core development of the IPT is directed by GBIF, but the coding is a community effort and everyone is welcome to join. Start by browsing the https://github.com/gbif/ipt/issues[Open Issues] to find something that you'd like to start working on. Kindly note that contributions are welcome in the form of a https://help.github.com/articles/creating-a-pull-request/[pull request] using a branch or fork of the repository. Full instructions aimed at developers can be found xref:developer-guide.adoc[here]."
+msgstr "IPT的核心发展由GBIF指导，但编码是社区的努力，欢迎每个人加入。 首先浏览https://github.com/gbif/ipt/issues[Open Issues] 以找到您想开始工作的东西。 请注意，在使用 https://help.github.com/articles/creating-a-pull-request/[pull request] 使用版本库的分支或分叉形式欢迎捐款。 针对开发者的完整说明可以找到 xref:developer-guide.adoc[here]。"
+
+#. type: Title ==
+#: docs/en/modules/ROOT/pages/index.adoc:47
+#, no-wrap
+msgid "Translators"
+msgstr "翻译者"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:50
+msgid "The IPT user interface and manual both need internationalization, but it's a community effort and everyone is welcome to join. Full instructions aimed at translators can be found xref:translations.adoc[here]."
+msgstr "IPT 用户界面和手动都需要国际化，但这是社区的努力，欢迎每个人加入。 针对翻译员的完整说明可以找到 xref:translations.adoc[here]。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:52
+msgid "Thanks to an enormous community effort, and by leveraging the power of the https://crowdin.com/project/gbif-ipt[Crowdin] localization tool, the user interface has already been translated into seven different languages: English, French, Spanish, Traditional Chinese, Brazilian Portuguese, Japanese, and Russian."
+msgstr "由于社区的巨大努力，并通过利用https://crowdin的力量。 om/project/gbif-ipt[Crowdin] 本地化工具，用户界面已翻译成七种不同语言：英文。 法文、西班牙文、传统中文、巴西葡萄牙文、日文和俄文。"
+
+#. type: Title ==
+#: docs/en/modules/ROOT/pages/index.adoc:53
+#, no-wrap
+msgid "Acknowledgements"
+msgstr "鸣谢"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:56
+msgid "A large number of dedicated volunteers contribute to the success of this software. With your help, the IPT has become a successful tool in use all around the world."
+msgstr "大量专心致志的志愿者为这一软件的成功做出了贡献。 在你的帮助下，IPT已经成为世界各地使用的一个成功工具。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:57
+msgid "https://crowdin.com/[Crowdin] is kindly supporting this open source project by giving GBIF a free access to its localization management platform. Crowdin makes it possible to manage a large number of concurrent translations."
+msgstr "https://crowdin.com/[Crowdin] 支持这个开放源码项目，允许GBIF免费访问其本地化管理平台。 Crowdin 可以管理大量并行翻译。"
+
+#. type: Title =
+#: docs/en/modules/ROOT/pages/glossary.adoc:1
+#, no-wrap
+msgid "Glossary"
+msgstr "Glossary"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:4
+#, no-wrap
+msgid "*Checklist Resource* - a resource having information about one of many types of taxon-related lists.\n"
+msgstr "*清单资源* - 拥有多种类分类清单信息的资源。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:5
+#, no-wrap
+msgid "*Core Type* - a category of predefined sets of data properties (Taxon, Occurrence, and Event) used as the basis of a resource. Additional extensions might be linked to these Core Types when mapping data in the IPT.\n"
+msgstr "*核心类型 * - 用作资源基础的预定义的数据组属性类别(分类、发生和事件)。 在映射IPT中的数据时，可能会链接到这些核心类型。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:7
+#, no-wrap
+msgid "*CSV file* - a text file that contains data in the Comma-separated Value format.\n"
+msgstr "*CSV 文件* - 以逗号分隔的值格式包含数据的文本文件。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:8
+#, no-wrap
+msgid "*Data directory* - the full (rather than relative) path (location) in the file structure where the data associated with the IPT instance are located.\n"
+msgstr "*数据目录* - 与IPT实例相关的数据所在的文件结构中的完整(而不是相对)路径(位置)。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:9
+#, no-wrap
+msgid "*Darwin Core* - a standard consisting of terms and classes of terms used to share biodiversity data.\n"
+msgstr "*Darwin Core* - 一个包含用于分享生物多样性数据的术语和类别的标准。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:10
+#, no-wrap
+msgid "*Darwin Core Archive* - a single zipped archive for a data set consisting of one or more text files of data, an XML file (meta.xml) describing the contents of the text files and how they relate to each other, and an XML file (eml.xml) containing the metadata in EML about the data set.\n"
+msgstr "*Darwin Core Archive* - 一个包含一个或多个数据文本文件的 XML 文件(元)的单个压缩包。 ml描述文本文件的内容和它们之间的关系，以及一个XML文件(eml)。 ml包含EML中有关数据集的元数据。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:11
+#, no-wrap
+msgid "*EML* - the Ecological Markup Language is an XML-based profile used to encode metadata about a data set.\n"
+msgstr "*EML* - 生态标记语言是一个基于 XML 的配置文件，用于编码数据集的元数据。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:12
+#, no-wrap
+msgid "*Extension* - in this user manual, an extension is a set of terms corresponding to a specific category of data. An extension should be thought of as an extension of the capabilities of the IPT rather than as an extension of any particular standard.\n"
+msgstr "* 扩展* - 在本用户手册中，扩展是一组与特定类别数据相对应的术语。 延期应被视为IPT能力的延伸，而不是任何特定标准的延伸。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:13
+#, no-wrap
+msgid "*GBIF Registry* - a registry that manages the nodes, organizations, resources, and IPT installations registered with GBIF, making them discoverable and interoperable.\n"
+msgstr "*GBIF注册* - 用于管理节点、组织、资源和IPT安装的注册表，从而使它们能够被发现并可以互用。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:14
+#, no-wrap
+msgid "*Metadata* - in this user manual, metadata refers to the information about a data set as opposed the primary data in the data set.\n"
+msgstr "*元数据* - 在本用户手册中，元数据指的是数据集中相对于数据集原始数据的信息。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:15
+#, no-wrap
+msgid "*Metadata Resource* - a resource having information about a data set, but without having the actual primary data. A metadata resource might give information about a collection that has not yet been digitized, for example.\n"
+msgstr "*元数据资源* - 拥有数据集信息但没有实际原始数据的资源。 元数据资源可能会提供关于尚未数字化的收藏的信息。例如，\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:16
+#, no-wrap
+msgid "*Occurrence Resource* - a resource having information about Occurrences as defined in the Darwin Core.\n"
+msgstr "*出现资源* - 一个拥有达尔文核心定义的事件信息的资源。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:17
+#, no-wrap
+msgid "*Private* - a state of a resource in which only the creator, invited managers, and IPT administrators can view it.\n"
+msgstr "*私有* - 只有创建者、邀请管理员和 IPT 管理员才能查看资源的状态。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:18
+#, no-wrap
+msgid "*Public* - a state of a resource in which anyone can view it.\n"
+msgstr "*公开* - 任何人都可以查看资源的状态。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:19
+#, no-wrap
+msgid "*Published Release* - a version of the resource that has been produced by the IPT.\n"
+msgstr "*已发布的版本* - IPT生成的资源版本\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:20
+#, no-wrap
+msgid "*Registered* - a state of a public resource or of an IPT instance in which anyone can discover it through the GBIF Registry.\n"
+msgstr "*注册*-公共资源或IPT实例的状态，在此状态下，任何人都可以通过 GBIF注册表发现它。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:21
+#, no-wrap
+msgid "*Resource* - in this user manual, resource refers to a data set and the metadata about it.\n"
+msgstr "*Resource* - 在本用户手册中，资源是指一个数据集和有关它的元数据。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:22
+#, no-wrap
+msgid "*Resource Managers* - IPT users having a role that allows them to create, change, and remove resources.\n"
+msgstr "*资源管理员* - IPT用户能够创建、更改和移除资源。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:23
+#, no-wrap
+msgid "*RowType* - the category of information represented in an extension. The RowType is generally the URI of the Class that best fits the information contained in the extension.\n"
+msgstr "* RowType* - 扩展中所代表的信息类别。 RowType 通常是类的 URI，最适合扩展中包含的信息。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:24
+#, no-wrap
+msgid "*RSS* - the acronym for Really Simple Syndication, a type of subscription format for tracking changes to a web site.\n"
+msgstr "*RSS * - 真正简单的辛迪加的缩写，用于跟踪网站更改的订阅格式。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:25
+#, no-wrap
+msgid "*Sampling Event Resource* - A resource where the basis of the resource is sampling events as defined in the Darwin Core.\n"
+msgstr "*取样事件资源* - 资源基础是达尔文核心定义的采样事件的资源。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:26
+#, no-wrap
+msgid "*Shortname* - a short unique name used for resource identification within the IPT and services that access the IPT.\n"
+msgstr "*短名* - 用于IPT中的资源识别和访问 IPT 服务的简短唯一名称\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:27
+#, no-wrap
+msgid "*Source Data* - in this user manual, the source data are the data that are mapped to core types and extensions within a resource and may consist of text files or a database.\n"
+msgstr "*源数据* - 在本用户手册中， 源数据是指在资源范围内映射到核心类型和扩展的数据，可能由文本文件或数据库组成。\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:27
+#, no-wrap
+msgid "*Visibility* - a term describing how a resource may be viewed (private, public, or registered).\n"
+msgstr "*可视性* - 一个描述资源如何被查看的术语(私有、公共或注册)。\n"
+
+#. type: Title =
+#: docs/en/modules/ROOT/pages/getting-started.adoc:1
+#, no-wrap
+msgid "Getting Started – Installation and Initial Setup"
+msgstr "启动——安装和初始设置"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/getting-started.adoc:4
+msgid "This Getting Started Guide is meant for those wishing to install and run an IPT instance for the first time. If you would like to see a functional installation of the IPT in action, you may use the public test instance of the latest general release version at https://ipt.gbif.org/ (contact helpdesk@gbif.org for an account). If you do so, refer to xref:overview.adoc[] for details on how to use the screens you will see."
+msgstr "这个入门指南是为了首次安装和运行IPT实例的人设计的。 如果您希望看到正在运行的 IPT 功能安装， 您可以在 https://ipt 上使用最新版本的公开测试实例。 bif.org/(请联系helpdesk@gbif.org。如果您这样做，请参阅xref:overview.adoc[…]关于如何使用您将看到的屏幕的详情。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/getting-started.adoc:6
+msgid "Developers who wish to work with the latest revision of the source code should consult the xref:developer-guide.adoc[] section."
+msgstr "开发者如果希望与源代码的最新版本合作，请参阅xref:developer-guide.adoc[]部分。"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/getting-started.adoc:7
+msgid "Publishers who would prefer not to run their own IPT may refer to the list of xref:data-hosting-centres.adoc[data hosting centres]."
+msgstr "不愿意运行自己的IPT的出版商可参阅xref:data-hosting-centres.adoc[数据托管中心]。"
+

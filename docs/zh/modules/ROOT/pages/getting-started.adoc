@@ -1,0 +1,7 @@
+= 启动——安装和初始设置
+
+这个入门指南是为了首次安装和运行IPT实例的人设计的。 如果您希望看到正在运行的 IPT 功能安装， 您可以在 https://ipt 上使用最新版本的公开测试实例。 bif.org/(请联系helpdesk@gbif.org。如果您这样做，请参阅xref:overview.adoc[…]关于如何使用您将看到的屏幕的详情。
+
+开发者如果希望与源代码的最新版本合作，请参阅xref:developer-guide.adoc[]部分。
+
+不愿意运行自己的IPT的出版商可参阅xref:data-hosting-centres.adoc[数据托管中心]。

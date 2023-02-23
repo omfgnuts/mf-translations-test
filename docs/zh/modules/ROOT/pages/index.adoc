@@ -1,0 +1,54 @@
+= GBIF 集成发布工具包(IPT) 用户手册
+
+_关于最新版本的信息，包括下载，请参阅xref：releases.adoc[Releases] page._
+
+GBIF 综合出版工具包(IPT) 是一个免费提供的开放源代码网页应用程序，易于分享四种类型的与生物多样性有关的信息：
+
+. 主要分类群事件数据
+. 分类单元清单
+. 采样事件数据
+. 数据源的一般元数据。
+
+IPT实例以及通过IPT注册的数据和元数据已连接到GBIF注册表， 通过基于性别的综合框架网络和门户网站为咨询编制索引，并可供公众使用。 IPT 也可以使用 DataCite 帐户配置，以便将 DOI指派到数据集，转换成数据存储库。
+
+2001年建立并由各国政府提供资金 全球生物多样性信息基金是世界上最大的多边倡议，旨在使人们能够通过因特网免费获得生物多样性数据。 https://www.gbif.org/participation/participant-list[GBIF的各种参与者]主要包括国家和国际组织。 基于性别的综合框架还与有关国际条约机构建立了正式的伙伴关系。 全球生物多样性框架的任务是通过因特网促进和使人们能够自由和公开地获得世界各地生物多样性数据，以支持科学、养护和可持续发展。 更多关于GBIF的信息可在 https://www.gbif.org/[GBIF.org] 上找到。
+
+有几个因素促使基于性别的综合框架带头制定了综合方案：
+
+* 以前的出版工具(DiGIR, TAPIR, BiCASee)很容易发布和传输大型数据集的限制；
+* 在索引过程中需要减少发布者服务器和GBIF服务器的负荷。 原因是DiGIR、TAPIR或BioCASe的索引因为重复的 HTTP 请求-响应交互而造成了沉重的负荷。
+* • 需要加快生物多样性发生数据集索引的进程；
+* • 需要向数据出版商提供更多的好处和服务，以鼓励数据公布；
+* 缺乏适当的工具来公布某些类型的生物多样性数据，例如地名清单和数据集元数据。
+
+为了了解IPT如何工作，请尝试观看这个简洁的25分钟直播演示，显示数据集如何通过GBIF.org正确地发布和注册。
+
+[.responsive-video]
+.如何使用 IPT 通过 GBIF.org 发布生物多样性数据
+video::eDH9IoTrMVE[youtube, width=100%]
+
+== 用户
+
+如果您只想尝试IPT，请在 https://ipt.gbif.org/[Demo IPT]上通过发送电子邮件到helpdesk@gbif.org请求一个账户。
+
+开始使用IPT的最简单方式是在xref:data-hosting中心申请免费帐户。 文档[可信的数据托管中心]允许您管理自己的数据集并通过GBIF发布它们。 rg 不需要在您自己的服务器上设置和维护IPT。
+
+否则，如果想要设置您自己的 IPT 实例的话，xref:getting-started.adoc[Getting Started Guide]是您的切入点。
+
+NOTE: 请务必注册 https://lists.gbif.org/mailman/listinfo/ipt/[IPT Mailing List]，该邮件列表是IPT 用户的支持组。 防止酷刑小组必须不断更新，以便尽可能安全和有力。 如果您负责管理IPT, 然后您应该注册以获得新版本的通知，以便您可以立即更新。
+
+== 开发人员
+
+IPT的核心发展由GBIF指导，但编码是社区的努力，欢迎每个人加入。 首先浏览https://github.com/gbif/ipt/issues[Open Issues] 以找到您想开始工作的东西。 请注意，在使用 https://help.github.com/articles/creating-a-pull-request/[pull request] 使用版本库的分支或分叉形式欢迎捐款。 针对开发者的完整说明可以找到 xref:developer-guide.adoc[here]。
+
+== 翻译者
+
+IPT 用户界面和手动都需要国际化，但这是社区的努力，欢迎每个人加入。 针对翻译员的完整说明可以找到 xref:translations.adoc[here]。
+
+由于社区的巨大努力，并通过利用https://crowdin的力量。 om/project/gbif-ipt[Crowdin] 本地化工具，用户界面已翻译成七种不同语言：英文。 法文、西班牙文、传统中文、巴西葡萄牙文、日文和俄文。
+
+== 鸣谢
+
+大量专心致志的志愿者为这一软件的成功做出了贡献。 在你的帮助下，IPT已经成为世界各地使用的一个成功工具。
+
+https://crowdin.com/[Crowdin] 支持这个开放源码项目，允许GBIF免费访问其本地化管理平台。 Crowdin 可以管理大量并行翻译。

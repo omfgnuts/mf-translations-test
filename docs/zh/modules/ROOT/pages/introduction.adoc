@@ -1,0 +1,11 @@
+= 如何使用本手册
+
+该手册有三个主要组成部分：带有背景资料的导言。 一系列逐步教程和完整的参考指南，包括“开始”部分和详细描述工具不同元素的章节。
+
+测试模式
+
+鼓励所有用户审查这个导言部分，然后参照不同的具体章节，这取决于他们在IPT安装方面的作用。 IPT (和本手册) 区分三种用户：
+
+* *管理员*：负责安装和配置IPT。他们可以更改IPT实例的所有方面。 管理员应该参考参考参考指南的 xref:getting-started.adoc[Getting Started] 和 xref:adoc[Administration Menu] 部分。
+* *资源管理员*：他们能够创建、编辑、移除和管理资源（数据集和元数据）。 根据设置，他们可能有或没有通过GBIF网络发布资源的注册权。 资源管理人员应参考不同的xref:how to publish。 doc[tutorials] 取决于他们需要处理的 (xref:resour-metadata.adoc[metadata], xref:ocuse-data. doc[occurrences]通过扩展等特殊数据类型。xref:manage-resources.adoc[管理资源菜单] 部分也将对资源管理员非常有用
+* *基本用户*：他们只能浏览在IPT安装中发布的资源。 对于基本用户来说，IPT是一个简单的网络应用程序，因此本手册中没有进一步的解释。

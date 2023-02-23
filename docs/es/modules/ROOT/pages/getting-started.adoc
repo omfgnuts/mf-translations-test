@@ -1,0 +1,7 @@
+= Empezando – instalación e instalación inicial
+
+Esta Guía de Inicio está destinada a aquellos que deseen instalar y ejecutar una instancia IPT por primera vez. Si desea ver una instalación funcional de la IPT en acción, puedes usar la instancia pública de prueba de la última versión general en https://ipt. bif.org/ (póngase en contacto con helpdesk@gbif.org para obtener una cuenta). Si lo hace, consulte xref:overview.adoc[] para obtener detalles sobre cómo utilizar las pantallas que verá.
+
+Los desarrolladores que deseen trabajar con la última revisión del código fuente deberían consultar la sección xref:developer-guide.adoc[].
+
+Los editores que prefieran no ejecutar su propia IPT pueden referirse a la lista de xref:data-hosting-centres.adoc[centros de alojamiento de datos].

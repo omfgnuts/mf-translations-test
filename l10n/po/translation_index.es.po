@@ -1,0 +1,385 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: module-federation-docs\n"
+"POT-Creation-Date: 2023-02-22 23:01+0300\n"
+"PO-Revision-Date: 2023-02-22 21:18\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Crowdin-Project: module-federation-docs\n"
+"X-Crowdin-Project-ID: 567699\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: translation_index.po\n"
+"X-Crowdin-File-ID: 47\n"
+
+#. type: Title =
+#: docs/en/modules/ROOT/pages/introduction.adoc:1
+#, no-wrap
+msgid "How to Use this Manual"
+msgstr "Cómo utilizar este manual"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:4
+msgid "This manual has three main components: an introduction with background information, a number of step-by-step tutorials and a complete reference guide including a \"getting started\" section and sections describing in detail the different elements of the tool."
+msgstr "Este manual tiene tres componentes principales: una introducción con información de fondo, una serie de tutoriales paso a paso y una guía de referencia completa que incluye una sección de \"comenzar\" y secciones que describen en detalle los diferentes elementos de la herramienta."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:6
+msgid "test"
+msgstr "prueba"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:8
+msgid "All users are encouraged to review this introductory part and then refer to the different specific sections depending on their role(s) regarding the IPT installation. The IPT (and this manual) differentiates three type of users:"
+msgstr "Se recomienda a todos los usuarios que revisen esta parte introductoria y luego se refieran a las diferentes secciones específicas dependiendo de su(s) rol(es) con respecto a la instalación de IPT. El IPT (y este manual) diferencia tres tipos de usuarios:"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:10
+#, no-wrap
+msgid "*Administrators*: in charge of installing and configuring the IPT. They can make changes to all aspects of an instance of the IPT. Administrators should refer to the xref:getting-started.adoc[Getting Started] and xref:administration.adoc[Administration Menu] sections of the reference guide.\n"
+msgstr "*Administradores*: a cargo de instalar y configurar la IPT. Pueden hacer cambios en todos los aspectos de una instancia de la IPT. Los administradores deben referirse a las secciones xref:getting-started.adoc[Iniciando] y xref:administration.adoc[Menú de Administración] de la guía de referencia.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:11
+#, no-wrap
+msgid "*Resource Managers*: they are able to create, edit, remove and manage resources (data sets and metadata). Depending on the settings they may or may not have registration rights to publish resources through the GBIF Network. Resource managers should refer to the different xref:how-to-publish.adoc[tutorials] depending on the type of data that they need to deal with (xref:resource-metadata.adoc[metadata], xref:occurrence-data.adoc[occurrences], special data types through extensions, etc.). The xref:manage-resources.adoc[Manage Resources Menu] section will also be very helpful for resource managers.\n"
+msgstr "*Administradores de recursos*: son capaces de crear, editar, eliminar y administrar recursos (conjuntos de datos y metadatos). Dependiendo de la configuración que puedan o no tener derechos de registro para publicar recursos a través de la Red GBIF. Los gestores de recursos deben referirse a los diferentes xref: cómo publicar. doc[tutorials] dependiendo del tipo de datos que necesiten para tratar con (xref:resource-metadata.adoc[metadata], xref:occurrence-data. doc[occurrences], tipos de datos especiales a través de extensiones, etc. La sección xref:manage-resources.adoc[Manage Resources Menu] también será muy útil para los administradores de recursos.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/introduction.adoc:11
+#, no-wrap
+msgid "*Basic users*: They can only browse the resources published in an IPT installation. For basic users the IPT works as a simple web application so no further explanation is included in this manual.\n"
+msgstr "*Usuarios básicos*: Sólo pueden navegar por los recursos publicados en una instalación IPT. Para los usuarios básicos, el IPT funciona como una aplicación web simple, por lo que no se incluye ninguna explicación adicional en este manual.\n"
+
+#. type: Title =
+#: docs/en/modules/ROOT/pages/index.adoc:1
+#, no-wrap
+msgid "GBIF Integrated Publishing Toolkit (IPT) User Manual"
+msgstr "Manual de usuario de la herramienta de publicación integrada de GBIF (IPT)"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:4
+msgid "_For information on the latest release, including downloads, see the xref:releases.adoc[Releases] page._"
+msgstr "_Para información sobre la última versión, incluyendo descargas, vea la página xref:releases.adoc[Releases]._"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:6
+msgid "The GBIF Integrated Publishing Toolkit (IPT) is a freely available open source web application that makes it easy to share four types of biodiversity-related information:"
+msgstr "El kit de herramientas de publicación integradas de GBIF (IPT) es una aplicación web de código abierto disponible libremente que facilita el intercambio de cuatro tipos de información relacionada con la biodiversidad:"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:8
+msgid "primary taxon occurrence data"
+msgstr "datos primarios de ocurrencia de taxón"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:9
+msgid "taxon checklists"
+msgstr "listas de verificación de taxones"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:10
+msgid "sampling event data"
+msgstr "muestreo de datos del evento"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:11
+msgid "general metadata about data sources."
+msgstr "metadatos generales sobre fuentes de datos."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:13
+msgid "An IPT instance as well as the data and metadata registered through the IPT are connected to the GBIF Registry, are indexed for consultation via the GBIF network and portal, and are made accessible for public use.  The IPT can also be configured with a DataCite account in order to assign DOIs to datasets transforming it into a data repository."
+msgstr "Una instancia IPT, así como los datos y metadatos registrados a través del IPT están conectados al Registro GBIF, son indexadas para su consulta a través de la red GBIF y el portal, y son accesibles para uso público. El IPT también se puede configurar con una cuenta de DataCite para asignar DOI a los conjuntos de datos que lo transforman en un repositorio de datos."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:18
+msgid "Founded and funded by governments in 2001, The Global Biodiversity Information Facility (GBIF) is the world's largest multi-lateral initiative for enabling free access to biodiversity data via the Internet. https://www.gbif.org/participation/participant-list[GBIF's diverse Participants] include primarily countries and international organizations. GBIF also has formal partnerships with relevant international treaty bodies. GBIF's mission is to promote and enable free and open access to biodiversity data worldwide via the Internet to underpin science, conservation and sustainable development. More information about GBIF can be found at https://www.gbif.org/[GBIF.org]."
+msgstr "Fundado y financiado por los gobiernos en 2001, El Global Biodiversity Information Facility (GBIF) es la mayor iniciativa multilateral del mundo para permitir el libre acceso a los datos de biodiversidad a través de Internet. https://www.gbif.org/participation/participant-list[los diversos participantes de GBIF] incluyen principalmente países y organizaciones internacionales. GBIF también tiene asociaciones formales con organismos internacionales relevantes de tratados. La misión de GBFI es promover y permitir el acceso libre y abierto a los datos de biodiversidad en todo el mundo a través de Internet para apuntalar la ciencia, la conservación y el desarrollo sostenible. Puede encontrar más información sobre GBIF en https://www.gbif.org/[GBIF.org]."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:20
+msgid "Several factors have provided motivation for GBIF to lead the development of the IPT:"
+msgstr "Varios factores han motivado a GBIF a liderar el desarrollo del IPT:"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:22
+msgid "limitations of previous publishing tools (DiGIR, TAPIR, BioCASe) to easily publish and transfer large datasets;"
+msgstr "limitaciones de herramientas editoriales anteriores (DiGIR, TAPIR, BioCASe) para publicar y transferir fácilmente grandes conjuntos de datos;"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:23
+msgid "the need to reduce the load on both the publisher's server, and GBIF's server during indexing. The reason being that indexing from DiGIR, TAPIR, or BioCASe caused heavy loads due to repeated HTTP request-response interactions."
+msgstr "la necesidad de reducir la carga tanto en el servidor del editor, como en el servidor de GBIF, durante la indexación. La razón es que la indexación de DiGIR, TAPIR o BioCASe causó cargas pesadas debido a la repetición de la solicitud de respuesta HTTP."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:24
+msgid "the need to speed up the process of indexing biodiversity occurrence datasets;"
+msgstr "la necesidad de acelerar el proceso de indexación de los conjuntos de datos de ocurrencia de biodiversidad;"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:25
+msgid "the need to offer additional benefits and services to the data publishers to encourage data publication;"
+msgstr "la necesidad de ofrecer beneficios y servicios adicionales a los editores de datos para fomentar la publicación de datos;"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:26
+msgid "the lack of appropriate tools to publish certain types of biodiversity data, such as names checklists and data set metadata."
+msgstr "la falta de herramientas adecuadas para publicar ciertos tipos de datos sobre biodiversidad, como listas de verificación de nombres y metadatos de conjunto de datos."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:28
+msgid "To understand how the IPT works, try watching this concise 25 minute live demo showing how a dataset gets properly published and registered through GBIF.org."
+msgstr "Para entender cómo funciona la IPT, pruebe a ver esta concisa demostración en vivo de 25 minutos mostrando cómo un conjunto de datos se publica correctamente y se registra a través de GBIF.org."
+
+#. type: Block title
+#: docs/en/modules/ROOT/pages/index.adoc:30
+#, no-wrap
+msgid "How to publish biodiversity data through GBIF.org using the IPT"
+msgstr "Cómo publicar datos de biodiversidad a través de GBIF.org usando la IPT"
+
+#. type: Title ==
+#: docs/en/modules/ROOT/pages/index.adoc:33
+#, no-wrap
+msgid "Users"
+msgstr "Usuarios"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:36
+msgid "If you're only interested in trying out the IPT please request an account on the https://ipt.gbif.org/[Demo IPT] by sending an email to helpdesk@gbif.org."
+msgstr "Si sólo está interesado en probar la IPT, por favor solicite una cuenta en https://ipt.gbif.org/[Demo IPT] enviando un correo electrónico a helpdesk@gbif.org."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:38
+msgid "The simplest way to begin using the IPT is to request a free account on a xref:data-hosting-centres.adoc[trusted data hosting centre] allowing you to manage your own datasets and publish them through GBIF.org without the hassle of setting up and maintaining the IPT on your own server."
+msgstr "La forma más sencilla de comenzar a usar IPT es solicitar una cuenta gratuita en los centros de alojamiento de datos xref:datos. doc[centro de alojamiento de datos de confianza] que te permite administrar tus propios conjuntos de datos y publicarlos a través de GBIF. rg sin el problema de configurar y mantener la IPT en su propio servidor."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:40
+msgid "Otherwise if want to setup your own instance of the IPT the xref:getting-started.adoc[Getting Started Guide] is your entry point."
+msgstr "De lo contrario, si desea configurar su propia instancia de IPT el punto de entrada xref:getting-started.adoc[Obteniendo Guía de Inicio]."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:42
+msgid "Be sure to sign up to the https://lists.gbif.org/mailman/listinfo/ipt/[IPT Mailing List], which serves as a support group for IPT users. It is essential that the IPT is kept up to date to be as secure and robust as possible, so if you are responsible for administering an IPT, then you should be signed up to be notified of new releases so that you can update immediately."
+msgstr "Asegúrese de registrarse en https://lists.gbif.org/mailman/listinfo/ipt/[IPT Mailing List], que sirve como un grupo de soporte para usuarios IPT. Es esencial que el IPT se mantenga al día para ser lo más seguro y sólido posible así que si usted es responsable de administrar un IPT, entonces debe estar registrado para ser notificado de nuevas versiones para que pueda actualizar inmediatamente."
+
+#. type: Title ==
+#: docs/en/modules/ROOT/pages/index.adoc:43
+#, no-wrap
+msgid "Developers"
+msgstr "Desarrolladores"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:46
+msgid "The core development of the IPT is directed by GBIF, but the coding is a community effort and everyone is welcome to join. Start by browsing the https://github.com/gbif/ipt/issues[Open Issues] to find something that you'd like to start working on. Kindly note that contributions are welcome in the form of a https://help.github.com/articles/creating-a-pull-request/[pull request] using a branch or fork of the repository. Full instructions aimed at developers can be found xref:developer-guide.adoc[here]."
+msgstr "El desarrollo básico de la IPT está dirigido por GBIF, pero la codificación es un esfuerzo comunitario y todos son bienvenidos a unirse. Empieza navegando por https://github.com/gbif/ipt/issues[Open Issues] para encontrar algo en lo que te gustaría empezar a trabajar. Tenga en cuenta que las contribuciones son bienvenidas en forma de https://help.github.com/articles/creating-a-pull-request/[pull request] usando una rama o bifurcación del repositorio. Las instrucciones completas dirigidas a los desarrolladores pueden encontrarse en xref:developer-guide.adoc[here]."
+
+#. type: Title ==
+#: docs/en/modules/ROOT/pages/index.adoc:47
+#, no-wrap
+msgid "Translators"
+msgstr "Traductores"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:50
+msgid "The IPT user interface and manual both need internationalization, but it's a community effort and everyone is welcome to join. Full instructions aimed at translators can be found xref:translations.adoc[here]."
+msgstr "La interfaz de usuario de IPT y el manual necesitan internacionalización, pero es un esfuerzo de la comunidad y todos son bienvenidos a unirse. Las instrucciones completas dirigidas a los traductores pueden encontrarse en xref:translations.adoc[here]."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:52
+msgid "Thanks to an enormous community effort, and by leveraging the power of the https://crowdin.com/project/gbif-ipt[Crowdin] localization tool, the user interface has already been translated into seven different languages: English, French, Spanish, Traditional Chinese, Brazilian Portuguese, Japanese, and Russian."
+msgstr "Gracias a un enorme esfuerzo comunitario, y aprovechando el poder del https://crowdin. om/project/gbif-ipt[Crowdin] herramienta de localización, la interfaz de usuario ya ha sido traducida a siete idiomas diferentes: inglés, Francés, español, chino tradicional, brasileño, japonés y ruso."
+
+#. type: Title ==
+#: docs/en/modules/ROOT/pages/index.adoc:53
+#, no-wrap
+msgid "Acknowledgements"
+msgstr "Agradecimientos"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:56
+msgid "A large number of dedicated volunteers contribute to the success of this software. With your help, the IPT has become a successful tool in use all around the world."
+msgstr "Un gran número de voluntarios dedicados contribuyen al éxito de este software. Con su ayuda, la IPT se ha convertido en una herramienta exitosa en uso en todo el mundo."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/index.adoc:57
+msgid "https://crowdin.com/[Crowdin] is kindly supporting this open source project by giving GBIF a free access to its localization management platform. Crowdin makes it possible to manage a large number of concurrent translations."
+msgstr "https://crowdin.com/[Crowdin] apoya amablemente este proyecto de código abierto dando a GBIF un acceso gratuito a su plataforma de administración de localización. Crowdin permite gestionar un gran número de traducciones simultáneas."
+
+#. type: Title =
+#: docs/en/modules/ROOT/pages/glossary.adoc:1
+#, no-wrap
+msgid "Glossary"
+msgstr "Glossary"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:4
+#, no-wrap
+msgid "*Checklist Resource* - a resource having information about one of many types of taxon-related lists.\n"
+msgstr "*Recurso de listas de control* - un recurso que tiene información acerca de uno de los muchos tipos de listas relacionadas con los taxones.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:5
+#, no-wrap
+msgid "*Core Type* - a category of predefined sets of data properties (Taxon, Occurrence, and Event) used as the basis of a resource. Additional extensions might be linked to these Core Types when mapping data in the IPT.\n"
+msgstr "*Tipo de núcleo* - una categoría de conjuntos predefinidos de propiedades de datos (Taxon, ocurrencia y Evento) que se utiliza como base de un recurso. Las extensiones adicionales podrían estar vinculadas a estos tipos de núcleo al mapear datos en la IPT.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:7
+#, no-wrap
+msgid "*CSV file* - a text file that contains data in the Comma-separated Value format.\n"
+msgstr "*Archivo CSV* - un archivo de texto que contiene datos en el formato Valor separado por coma.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:8
+#, no-wrap
+msgid "*Data directory* - the full (rather than relative) path (location) in the file structure where the data associated with the IPT instance are located.\n"
+msgstr "*Directorio de datos* - la ruta completa (en lugar de relativa) (ubicación) en la estructura del archivo donde se encuentran los datos asociados con la instancia IPT.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:9
+#, no-wrap
+msgid "*Darwin Core* - a standard consisting of terms and classes of terms used to share biodiversity data.\n"
+msgstr "*Darwin Core* - un estándar consistente en términos y clases de términos utilizados para compartir datos sobre biodiversidad.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:10
+#, no-wrap
+msgid "*Darwin Core Archive* - a single zipped archive for a data set consisting of one or more text files of data, an XML file (meta.xml) describing the contents of the text files and how they relate to each other, and an XML file (eml.xml) containing the metadata in EML about the data set.\n"
+msgstr "*Darwin Core Archive* - un único archivo comprimido para un conjunto de datos que consiste en uno o más archivos de texto de datos, un archivo XML (meta. ml) describiendo el contenido de los archivos de texto y cómo se relacionan entre sí, y un archivo XML (eml. ml) que contiene los metadatos en EML sobre el conjunto de datos.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:11
+#, no-wrap
+msgid "*EML* - the Ecological Markup Language is an XML-based profile used to encode metadata about a data set.\n"
+msgstr "*EML* - el Idioma de marcado ecológico es un perfil basado en XML utilizado para codificar metadatos sobre un conjunto de datos.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:12
+#, no-wrap
+msgid "*Extension* - in this user manual, an extension is a set of terms corresponding to a specific category of data. An extension should be thought of as an extension of the capabilities of the IPT rather than as an extension of any particular standard.\n"
+msgstr "*Extensión* - en este manual de usuario, una extensión es un conjunto de términos que corresponden a una categoría específica de datos. Se debería pensar en una extensión de las capacidades del IPT más que en una extensión de cualquier norma en particular.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:13
+#, no-wrap
+msgid "*GBIF Registry* - a registry that manages the nodes, organizations, resources, and IPT installations registered with GBIF, making them discoverable and interoperable.\n"
+msgstr "*Registro GBIF* - un registro que administra los nodos, organizaciones, recursos e instalaciones IPT registradas en GBIF, haciendo que sean detectables e interoperables.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:14
+#, no-wrap
+msgid "*Metadata* - in this user manual, metadata refers to the information about a data set as opposed the primary data in the data set.\n"
+msgstr "*Metadatos* - en este manual de usuario, los metadatos se refieren a la información acerca de un conjunto de datos frente a los datos principales en el conjunto de datos.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:15
+#, no-wrap
+msgid "*Metadata Resource* - a resource having information about a data set, but without having the actual primary data. A metadata resource might give information about a collection that has not yet been digitized, for example.\n"
+msgstr "*Recurso de metadatos* - un recurso que tiene información sobre un conjunto de datos, pero sin tener los datos primarios reales. Un recurso de metadatos podría dar información sobre una colección que aún no ha sido digitizada, por ejemplo.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:16
+#, no-wrap
+msgid "*Occurrence Resource* - a resource having information about Occurrences as defined in the Darwin Core.\n"
+msgstr "*Recurso de ocurrencia* - un recurso que tiene información sobre ocurrencias como se define en el Darwin Core.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:17
+#, no-wrap
+msgid "*Private* - a state of a resource in which only the creator, invited managers, and IPT administrators can view it.\n"
+msgstr "*Privado* - un estado de un recurso en el que solo el creador, los administradores invitados y los administradores de IPT pueden verlo.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:18
+#, no-wrap
+msgid "*Public* - a state of a resource in which anyone can view it.\n"
+msgstr "*Público* - un estado de un recurso en el que cualquiera puede verlo.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:19
+#, no-wrap
+msgid "*Published Release* - a version of the resource that has been produced by the IPT.\n"
+msgstr "*Versión publicada* - una versión del recurso que ha sido producido por la IPT.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:20
+#, no-wrap
+msgid "*Registered* - a state of a public resource or of an IPT instance in which anyone can discover it through the GBIF Registry.\n"
+msgstr "*Registrado* - un estado de un recurso público o de una instancia IPT en la que cualquiera puede descubrirlo a través del Registro GBIF.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:21
+#, no-wrap
+msgid "*Resource* - in this user manual, resource refers to a data set and the metadata about it.\n"
+msgstr "*Recurso* - en este manual de usuario, el recurso se refiere a un conjunto de datos y los metadatos al respecto.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:22
+#, no-wrap
+msgid "*Resource Managers* - IPT users having a role that allows them to create, change, and remove resources.\n"
+msgstr "*Administradores de recursos* - Usuarios de IPT que tienen un rol que les permite crear, cambiar y eliminar recursos.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:23
+#, no-wrap
+msgid "*RowType* - the category of information represented in an extension. The RowType is generally the URI of the Class that best fits the information contained in the extension.\n"
+msgstr "*RowType* - la categoría de información representada en una extensión. El RowType es generalmente la URI de la clase que mejor se ajusta a la información contenida en la extensión.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:24
+#, no-wrap
+msgid "*RSS* - the acronym for Really Simple Syndication, a type of subscription format for tracking changes to a web site.\n"
+msgstr "*RSS* - el acrónimo de Síndicación Realmente Sencilla, un tipo de formato de suscripción para rastrear los cambios en un sitio web.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:25
+#, no-wrap
+msgid "*Sampling Event Resource* - A resource where the basis of the resource is sampling events as defined in the Darwin Core.\n"
+msgstr "*Recurso del Evento de Muestreo* - Un recurso donde la base del recurso es muestrear eventos como se define en el Núcleo de Darwin.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:26
+#, no-wrap
+msgid "*Shortname* - a short unique name used for resource identification within the IPT and services that access the IPT.\n"
+msgstr "*Nombre abreviado* - un nombre único corto utilizado para la identificación de recursos dentro de la IPT y los servicios que acceden a la IPT.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:27
+#, no-wrap
+msgid "*Source Data* - in this user manual, the source data are the data that are mapped to core types and extensions within a resource and may consist of text files or a database.\n"
+msgstr "*Datos de origen* - en este manual de usuario, los datos de origen son los datos que se asignan a tipos de núcleo y extensiones dentro de un recurso y pueden consistir en archivos de texto o una base de datos.\n"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/glossary.adoc:27
+#, no-wrap
+msgid "*Visibility* - a term describing how a resource may be viewed (private, public, or registered).\n"
+msgstr "*Visibilidad* - un término que describe cómo se puede ver un recurso (privado, público o registrado).\n"
+
+#. type: Title =
+#: docs/en/modules/ROOT/pages/getting-started.adoc:1
+#, no-wrap
+msgid "Getting Started – Installation and Initial Setup"
+msgstr "Empezando – instalación e instalación inicial"
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/getting-started.adoc:4
+msgid "This Getting Started Guide is meant for those wishing to install and run an IPT instance for the first time. If you would like to see a functional installation of the IPT in action, you may use the public test instance of the latest general release version at https://ipt.gbif.org/ (contact helpdesk@gbif.org for an account). If you do so, refer to xref:overview.adoc[] for details on how to use the screens you will see."
+msgstr "Esta Guía de Inicio está destinada a aquellos que deseen instalar y ejecutar una instancia IPT por primera vez. Si desea ver una instalación funcional de la IPT en acción, puedes usar la instancia pública de prueba de la última versión general en https://ipt. bif.org/ (póngase en contacto con helpdesk@gbif.org para obtener una cuenta). Si lo hace, consulte xref:overview.adoc[] para obtener detalles sobre cómo utilizar las pantallas que verá."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/getting-started.adoc:6
+msgid "Developers who wish to work with the latest revision of the source code should consult the xref:developer-guide.adoc[] section."
+msgstr "Los desarrolladores que deseen trabajar con la última revisión del código fuente deberían consultar la sección xref:developer-guide.adoc[]."
+
+#. type: Plain text
+#: docs/en/modules/ROOT/pages/getting-started.adoc:7
+msgid "Publishers who would prefer not to run their own IPT may refer to the list of xref:data-hosting-centres.adoc[data hosting centres]."
+msgstr "Los editores que prefieran no ejecutar su propia IPT pueden referirse a la lista de xref:data-hosting-centres.adoc[centros de alojamiento de datos]."
+

@@ -1,0 +1,6 @@
+"preserve_hierarchy": true
+"commit_message": "Fix: New translations %original_file_name% from Crowdin"
+"append_commit_message": false
+files:
+  - source: /l10n/po/*.pot
+    translation: /l10n/po/%file_name%.%two_letters_code%.po
