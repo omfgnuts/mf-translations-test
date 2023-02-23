@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: module-federation-docs\n"
 "POT-Creation-Date: 2023-02-22 23:01+0300\n"
-"PO-Revision-Date: 2023-02-23 00:56\n"
+"PO-Revision-Date: 2023-02-23 01:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -215,7 +215,7 @@ msgstr "https://crowdin.com/[Crowdin] apoya amablemente este proyecto de código
 #: docs/en/modules/ROOT/pages/glossary.adoc:1
 #, no-wrap
 msgid "Glossary"
-msgstr ""
+msgstr "Glosario"
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/glossary.adoc:4
