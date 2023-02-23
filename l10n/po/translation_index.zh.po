@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: module-federation-docs\n"
 "POT-Creation-Date: 2023-02-22 23:01+0300\n"
-"PO-Revision-Date: 2023-02-23 00:56\n"
+"PO-Revision-Date: 2023-02-23 01:04\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -215,7 +215,7 @@ msgstr "https://crowdin.com/[Crowdin] 支持这个开放源码项目，允许GBI
 #: docs/en/modules/ROOT/pages/glossary.adoc:1
 #, no-wrap
 msgid "Glossary"
-msgstr ""
+msgstr "词汇表"
 
 #. type: Plain text
 #: docs/en/modules/ROOT/pages/glossary.adoc:4
