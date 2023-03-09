@@ -1,3 +1,9 @@
-.DS_Store
-.vscode/settings.json
-docs/es/modules/ROOT/pages/.DS_Store
+docs/.DS_Store
+docs/en/.DS_Store
+docs/en/modules/.DS_Store
+docs/en/modules/ROOT/.DS_Store
+docs/es/.DS_Store
+docs/es/modules/.DS_Store
+docs/es/modules/ROOT/.DS_Store
+l10n/.DS_Store
+l10n/po/.DS_Store

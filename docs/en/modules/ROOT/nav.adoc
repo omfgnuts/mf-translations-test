@@ -1,4 +1,7 @@
 
-* xref:introduction.adoc[]
-* xref:getting-started.adoc[]
-* xref:glossary.adoc[]
+* xref:getting-started.adoc[Getting Started]
+* xref:history.adoc[History of Module Federation]
+* xref:use-cases.adoc[Use Cases for Module Federation]
+* xref:best-practices.adoc[Best Practices and Tips]
+* xref:pros-cons.adoc[Pros and Cons of Module Federation]
+* xref:setup.adoc[Setting up Module Federation]

@@ -1,0 +1,11 @@
+{
+    "asciidoc.antora.enableAntoraSupport": true,
+    "grammarly.files.include": [
+        "**/README.md",
+        "**/readme.md",
+        "**/*.adoc"
+    ],
+    "cSpell.words": [
+        "adoc"
+    ]
+}

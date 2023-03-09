@@ -1,8 +1,8 @@
-name: ipt
-title: Integrated Publishing Toolkit
+name: mf-docs
+title: Module Federation Documentation
 version: 2.5
 display_version: '2.5'
-start_page: ROOT:index.adoc
+start_page: ROOT:getting-started.adoc
 nav:
   - modules/ROOT/nav.adoc
 asciidoc:
