@@ -1,7 +1,57 @@
-= Getting Started – Installation and Initial Setup
+= Introduction
 
-This Getting Started Guide is meant for those wishing to install and run an IPT instance for the first time. If you would like to see a functional installation of the IPT in action, you may use the public test instance of the latest general release version at https://ipt.gbif.org/ (contact helpdesk@gbif.org for an account). If you do so, refer to xref:overview.adoc[] for details on how to use the screens you will see.
+== What is Module Federation?
 
-Developers who wish to work with the latest revision of the source code should consult the xref:developer-guide.adoc[] section.
+Module Federation is a concept that allows developers to share code and resources across multiple JavaScript applications, or micro-frontends. In a traditional web application, all the code for a single page is usually contained within a single codebase. This can lead to monolithic applications that are difficult to maintain and scale.
 
-Publishers who would prefer not to run their own IPT may refer to the list of xref:data-hosting-centres.adoc[data hosting centres].
+To better understand Module Federation, let's consider an analogy. Imagine you have a group of friends who all have different skills. One friend is good at cooking, another is good at fixing cars, and another is good at playing music. You decide to have a party, and you want each of your friends to contribute something to the party. The friend who is good at cooking can bring food, the friend who is good at fixing cars can help set up the sound system, and the friend who is good at playing music can provide entertainment.
+
+Module Federation works in a similar way. Different applications can contribute parts of their code to other applications, allowing them to work together seamlessly. For example, one application might provide a user authentication module, while another application might provide a shopping cart module. These modules can be shared between the applications, allowing them to work together as if they were one unified application.
+
+With Module Federation, code can be split into smaller, independently deployable modules that can be loaded on demand when they are needed. This allows micro-frontends to be developed and deployed independently, which reduces coordination between teams and allows for faster development cycles.
+
+At its core, Module Federation is based on the idea of remote loading of JavaScript modules. This means that instead of having all the code for a single application loaded at once, the code can be split into smaller, independently deployable modules that can be loaded on demand when they are needed.
+
+Module Federation is implemented using the Webpack module bundler. Webpack is a tool that allows developers to bundle JavaScript modules into a single file that can be loaded by a web browser. With Module Federation, Webpack is extended to allow modules to be loaded from other applications, rather than just from within the same application.
+
+To use Module Federation, developers need to configure their Webpack builds to expose certain modules to other applications and to consume modules from other applications. This can be done using the exposes and remotes options in the Webpack configuration.
+
+- The `exposes` option is used to expose certain modules from an application to other applications. This tells Webpack which modules should be available to other applications when they are loaded remotely. 
+- The `remotes` option is used to consume modules from other applications. This tells Webpack which modules should be loaded remotely from other applications when they are needed.
+
+Once the Webpack configurations for each application have been set up, the applications can be deployed independently. When a user visits a page that includes multiple micro-frontends, the micro-frontends will dynamically load the code they need from other micro-frontends using the exposes and remotes options.
+
+In summary, Module Federation allows developers to share code and resources across micro-frontends, which reduces duplication and improves code maintainability. By allowing micro-frontends to be developed and deployed independently, Module Federation reduces the need for coordination between teams and allows for faster development cycles. 
+
+== How Module Federation Works
+
+In this guide, we'll take a deep dive into the technical details of Module Federation and explore how it works under the hood.
+
+At a high level, Module Federation works by allowing JavaScript modules to be loaded from remote applications. This is enabled by extending the Webpack module bundler to support remote loading of modules and using a runtime called the "Module Federation Runtime" to handle the loading and dependency resolution of remote modules.
+
+Let's take a closer look at how this works:
+
+=== Exposing Modules
+
+To expose a module from one micro-frontend to another, you first need to configure the Webpack build for that micro-frontend to expose the module. This is done using the exposes configuration option, which specifies the name of the module and the path to its implementation file.
+
+When the Webpack build is run, it generates a special "remote entry" file that includes information about the exposed module. This file is then made available to other micro-frontends, which can use it to dynamically load the exposed module at runtime.
+
+=== Consuming Modules
+
+To consume a module from another micro-frontend, you need to configure the Webpack build for your micro-frontend to load the module remotely. This is done using the remotes configuration option, which specifies the name of the remote micro-frontend and the name of the module to load.
+
+When the Webpack build is run, it generates a special "container" file that includes information about the remote micro-frontend and the modules it exposes. This file is then loaded at runtime, and the Module Federation Runtime uses it to dynamically load the requested module from the remote micro-frontend.
+
+=== Handling Dependencies
+
+When a module is loaded from a remote micro-frontend, it may have dependencies on other modules in that micro-frontend. The Module Federation Runtime handles these dependencies by recursively loading all the required modules and resolving any circular dependencies.
+
+If a module depends on another module that is also exposed by a remote micro-frontend, the Module Federation Runtime will load that module remotely as well. This allows for complex graphs of interdependent modules to be dynamically loaded and resolved at runtime.
+
+=== Security
+
+One of the key concerns with loading code from remote micro-frontends is security. The Module Federation Runtime provides a layer of security by ensuring that only trusted micro-frontends can load code from other micro-frontends.
+
+This is done using a combination of shared secrets and public keys. Each micro-frontend is given a shared secret that is used to sign its remote entry file and container file. When a micro-frontend attempts to load code from another micro-frontend, it sends a request with its own public key and a signed token containing the shared secret. The remote micro-frontend can then verify the signature and public key to ensure that the requesting micro-frontend is trusted.
+
