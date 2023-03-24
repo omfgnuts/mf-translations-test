@@ -17,7 +17,7 @@ Environment variables provide a straightforward way to use dynamic remotes by re
 
 === Implementation
 
-[source, json]
+[,json]
 ----
 module.exports = (env) => ({
   // ...
@@ -43,7 +43,7 @@ The https://www.npmjs.com/package/external-remotes-plugin[external-remotes-plugi
 
 === Implementation
 
-[, json]
+[,json]
 ----
 plugins: [
   new ModuleFederationPlugin({
@@ -73,7 +73,7 @@ Module Federation allows you to define remote URLs as promises instead of URL st
 
 ==== Webpack Configuration
 
-[, json]
+[,json]
 ----
 // Webpack config:
 module.exports = {
@@ -91,7 +91,7 @@ module.exports = {
 
 ==== Fetching Remote A Dynamically
 
-[, json]
+[,json]
 ----
 // Fetch Remote A dynamically:
 const fetchRemoteA = (resolve) => {
@@ -131,7 +131,7 @@ Dynamic remote containers allow you to load remote applications programmatically
 
 1. Remove the remotes field from the ModuleFederationPlugin configuration:
 
-[, json]
+[,json]
 ----
 plugins: [
   new ModuleFederationPlugin({
