@@ -170,7 +170,7 @@ The four methods discussed in this guide are:
 1. Environment Variables
 2. Webpack External Remotes Plugin
 3. Promise-Based Dynamic Remotes
-4.  Dynamic Remote Containers
+4. Dynamic Remote Containers
 
 Each method has its advantages and limitations. Choose the one that best suits your project's requirements and complexity.
 
