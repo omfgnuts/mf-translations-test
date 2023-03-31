@@ -65,8 +65,8 @@ export default Form;
 
 In this scenario, there are two aspects to test:
 
-- Button: supplied by its own webpack build
-- Form: supplied by its own webpack build
+- Button: supplied by its own Webpack build
+- Form: supplied by its own Webpack build
 
 === 2. Creating Test Builds
 
@@ -116,7 +116,7 @@ Both Button and Form are exposed for liability testing.
 
 === 3. Federated Unit Testing with Jest
 
-With the test builds in place, you can use Jest to run tests against a webpack-built test of test files. This allows you to utilize webpack's async capabilities to import federated modules and test them.
+With the test builds in place, you can use Jest to run tests against a Webpack-built test of test files. This allows you to utilize Webpack's async capabilities to import federated modules and test them.
 
 [, javascript]
 ----
@@ -148,11 +148,11 @@ describe("Federation", function () {
 });
 ----
 
-In this example, Jest processes an already built test file, allowing you to use federated imports in your tests. This is made possible by using webpack to compile the test files instead of Babel.
+In this example, Jest processes an already-built test file, allowing you to use federated imports in your tests. This is made possible by using Webpack to compile the test files instead of Babel.
 
 === 4. Federated Test Build
 
-To enable federated testing with Jest, you need a special webpack build that compiles `.test.js` files only.
+To enable federated testing with Jest, you need a special Webpack build that compiles `.test.js` files only.
 
 [, javascript]
 ----
@@ -254,7 +254,7 @@ In summary, the essential steps to create unit tests for distributed code using 
 . Expose components from each repository for testing.
 . Create a test build for each repository that exposes components as CommonJS modules.
 . Write federated test cases using Jest and the exposed components.
-. Set up a special webpack build configuration to compile `.test.js` files.
+. Set up a special Webpack build configuration to compile `.test.js` files.
 . Integrate federated unit testing into your CI pipeline using local execution or code streaming.
 
 With this approach, you can achieve a high degree of confidence that your federated modules will work correctly across different codebases and repositories. Moreover, by having individual teams take part in liability tests, you can ensure that updates and changes to federated modules do not cause unexpected issues in the consuming applications.
