@@ -1,9 +1,2 @@
-docs/.DS_Store
-docs/en/.DS_Store
-docs/en/modules/.DS_Store
-docs/en/modules/ROOT/.DS_Store
-docs/es/.DS_Store
-docs/es/modules/.DS_Store
-docs/es/modules/ROOT/.DS_Store
-l10n/.DS_Store
-l10n/po/.DS_Store
+docs/en/modules/ROOT/pages/webdev-evolution-smol-article.adoc
+docs/en/modules/ROOT/pages/(do-not-publish)security.adoc
